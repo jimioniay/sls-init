@@ -1,0 +1,6 @@
+	
+- name: /users endpoint returns 200
+  endpoint:
+    function: handler
+  response:
+    status: 200
